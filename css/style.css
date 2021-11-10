@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  size: 14;
+  line-height: 19, 42;
+}
+div.container {
+  /* RocketNews */
+
+  position: relative;
+  width: 1440px;
+  height: 780px;
+  margin-top: 15px;
+  background: #ffffff;
+  display: grid;
+  place-items: center;
+}
+main {
+  /* background */
+
+  position: absolute;
+  width: 720px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  /* Black */
+
+  background: #121214;
+}
+header {
+  position: absolute;
+  width: 389px;
+  height: 94px;
+  top: 50px;
+  background: url(../img/logo.svg) no-repeat left/cover;
+}
+section {
+  position: absolute;
+  width: 647px;
+  height: 102px;
+  left: 36px;
+  top: 236px;
+}
+section > h1 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #08c05e;
+  padding-bottom: 4px;
+}
+section > h2 {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 5px;
+}
+section > p {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+form {
+  position: absolute;
+  width: 798px;
+  height: 84px;
+  left: 36px;
+  top: 388px;
+}
+form > input {
+  display: grid;
+  position: absolute;
+  width: 798px;
+  height: 48px;
+  border-left: solid 5px seagreen;
+  filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+}
+
+button.send {
+  position: absolute;
+  width: 49px;
+  height: 50px;
+  top: 18.5px;
+  border: none;
+  left: 754px;
+  background: #8257e5 url(../img/send1.svg) no-repeat center;
+}
+a#link {
+  position: absolute;
+  width: 180px;
+  height: 20px;
+  left: 36px;
+  top: 524px;
+  background: url('../img/arrow-right-purple.svg') no-repeat right;
+}
+
+#link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 138.73%;
+  text-decoration: none;
+  color: #8257e5;
+}
+aside {
+  background: url(../img/read_news.jpg) no-repeat center/cover;
+  position: absolute;
+  width: 1175px;
+  height: 900px;
+  left: 376px;
+  top: 0px;
+}
