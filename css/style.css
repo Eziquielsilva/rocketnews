@@ -78,35 +78,47 @@ section > p {
 }
 form {
   position: absolute;
-  width: 798px;
+  width: 788px;
   height: 84px;
-  left: 36px;
-  top: 388px;
+  top: 220px;
+  display: grid;
+}
+form label {
+  position: absolute;
+  bottom: 100px;
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  /* or 19px */
+
+  color: #a8a8a8;
 }
 form > input {
   display: grid;
   position: absolute;
-  width: 798px;
+  width: 760px;
   height: 48px;
-  border-left: solid 5px seagreen;
+  border: none;
+  border-left: solid 10px #04d361;
   filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
 }
 
 button.send {
   position: absolute;
-  width: 49px;
-  height: 50px;
-  top: 18.5px;
+  width: 48px;
+  height: 48px;
   border: none;
-  left: 754px;
+  left: 722px;
   background: #8257e5 url(../img/send1.svg) no-repeat center;
 }
 a#link {
   position: absolute;
   width: 180px;
   height: 20px;
-  left: 36px;
-  top: 524px;
+
+  top: 115px;
   background: url('../img/arrow-right-purple.svg') no-repeat right;
 }
 
